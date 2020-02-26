@@ -1,0 +1,18 @@
+table{
+    width: 600px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    border-spacing: 12px;
+    border-collapse: collapse;
+    empty-cells : show 
+}
+table:hover{
+    background-color: peru;
+}
+td{
+    border: 1px solid #cccccc;
+    padding: 5px;
+    margin: 25px;
+}

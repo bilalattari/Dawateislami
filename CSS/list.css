@@ -1,0 +1,10 @@
+ul , ol{
+    list-style: outside circle ;
+    /* list-style-type: square ;
+    border-image-width: 20px;
+    list-style-position: inside; */
+}
+
+ol{
+    list-style-type: lower-alpha;
+}

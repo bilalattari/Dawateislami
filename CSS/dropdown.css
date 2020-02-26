@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: 25px;
+}
+li{
+    display: inline;
+    height: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dropdown{
+    width: 200px;
+    margin-top: 32px;
+    position: relative;
+    visibility: hidden;
+    background-color: tomato;
+}
+span:hover , .dropdown{
+display: block;
+}
+
+

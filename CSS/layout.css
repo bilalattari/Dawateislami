@@ -1,0 +1,56 @@
+.textbox{
+    width: 40%;
+    border: 1px black solid;
+}
+.secondPara{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.imgDiv{
+    width: 400px;
+    margin: 0 auto 0 auto; 
+}
+.imgText{
+    position: absolute;
+    bottom: 56px;
+    cursor: pointer;
+    width: 350px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.imgText:hover{
+    color: lightgreen;
+}
+.indexDiv{
+    border: 2px solid black;
+    margin: 12px;
+}
+.indexP{
+    z-index: 1020;
+}
+.indexH{
+    position: absolute;
+    top: 4px;
+    z-index: -12;
+    background-color: grey;
+}
+
+
+.col1{
+    width: 100px;
+    background-color: grey;
+    float: right;
+}
+.col2{
+    width: 80px;
+    background-color: lightblue;
+    margin-right: 12px;
+    float: right;
+    
+}
+.parent-div{
+    width: 80%;
+    margin: 0 auto;
+}
